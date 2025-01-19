@@ -1,33 +1,3 @@
-/* Dark Mode Styles */
-body {
-    background-color: #121212; /* Dark background */
-    color: #e0e0e0; /* Light text */
-}
-
-a {
-    color: #bb86fc; /* Light purple links */
-}
-
-header {
-    background-color: #1e1e1e; /* Dark header background */
-    border-bottom: 1px solid #333;
-}
-
-nav a {
-    color: #e0e0e0;
-    text-decoration: none;
-    padding: 0.5em;
-}
-
-nav a:hover {
-    color: #bb86fc;
-}
-
-footer {
-    background-color: #1e1e1e;
-    color: #888;
-    padding: 1em;
-}
 /* General Styles */
 body {
     background-color: #181a1b; /* Soft dark background */
@@ -36,10 +6,6 @@ body {
     line-height: 1.6; /* Easier reading */
     margin: 0;
     padding: 0;
-    font-family: "Inter", "Roboto", Arial, sans-serif; /* Clean font stack */
-font-size: 16px; /* Standard size for readability */
-line-height: 1.6; /* Improve line spacing */
-
 }
 
 /* Links */
@@ -77,8 +43,9 @@ main {
     max-width: 800px;
     margin: 2em auto;
     padding: 1.5em;
-}
-
+    background-color: #242526; /* Subtle background for content area */
+    border-radius: 8px; /* Rounded edges for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
 /* Footer */
@@ -98,6 +65,7 @@ footer a {
 footer a:hover {
     color: #cccccc; /* Slightly brighter on hover */
 }
+
 /* Highlight Boxes */
 .highlight {
     background-color: #333;
