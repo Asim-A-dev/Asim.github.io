@@ -1,4 +1,4 @@
-theme: jekyll-theme-moonwalk
+theme: jekyll-theme-slate
 title: My Real-World Projects
 header_pages:
   - index.md
