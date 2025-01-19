@@ -1,8 +1,11 @@
+title: Asim's Real World Projects
+description: A site documenting my real-world projects.
 theme: minima
-title: My Real-World Projects
+
+minima:
+  dark_mode: true
+
 header_pages:
   - index.md
   - about.md
   - projects.md
-minima:
-  dark_mode: true
