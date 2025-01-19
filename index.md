@@ -1,34 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uber Replica</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Navbar -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+---
+layout: default
+---
 
-    <!-- Hero Section -->
-    <header>
-        <div class="hero-content">
-            <h1>Ride With Us Anywhere</h1>
-            <p>Safe and Reliable Rides at Your Fingertips</p>
-            <a href="#" class="cta-button">Get Started</a>
-        </div>
-    </header>
+<div class="intro">
+    <h1>Welcome to My Electronics and Coding Portfolio</h1>
+    <p>When I first started this course, I wasn’t sure what to expect. I had a basic understanding of technology but lacked the hands-on experience. Over the course, I’ve gained practical knowledge and skills that have helped me grow both personally and academically.</p>
+</div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Uber Replica | All Rights Reserved</p>
-    </footer>
-</body>
-</html>
+<div class="journey">
+    <h2>My Journey</h2>
+    <p>At the start, I was overwhelmed by the complexity of circuits and coding. I had no idea how much I would enjoy hands-on learning or how much the theoretical concepts would resonate with me once applied practically. The skills I’ve developed have been eye-opening, from mastering TinkerCAD circuits to understanding the history and future of computing.</p>
+</div>
+
+<div class="goals">
+    <h2>What’s Next?</h2>
+    <p>Looking ahead, I am excited about the next steps in my learning journey. I’m eager to dive deeper into more advanced topics, like microcontrollers, robotics, and AI. The foundation this course has given me will be the stepping stone to exploring real-world applications in tech, and I’m excited for the challenges and opportunities that lie ahead!</p>
+</div>
