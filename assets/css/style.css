@@ -1,64 +1,81 @@
 /* General Styles */
-body {
-    background-color: #f4f4f4;
-    color: #333;
-    font-family: Arial, sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    background-color: #181a1b; /* Soft dark background */
+    color: #e8e6e3; /* Light gray text */
 }
 
-/* Intro Section */
-.intro {
-    background-color: #283593;
-    color: #fff;
-    padding: 4em;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures consistent layout */
+}
+
+/* Links */
+a {
+    color: #1f7aec; /* Calm blue for normal links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+a:hover {
+    color: #8B0000; /* Blood red on hover */
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #242526; /* Dark header */
+    color: #ffffff; /* White text */
+    padding: 2em 0;
     text-align: center;
+    border-bottom: 1px solid #333;
 }
 
-.intro h1 {
-    font-size: 2.5em;
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #242526;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #242526;
+    color: #888888;
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 2em;
+    border-top: 1px solid #333;
+}
+
+footer a {
+    color: #888888;
+}
+
+footer a:hover {
+    color: #cccccc;
+}
+
+/* Heading for content sections */
+h1, h2, h3 {
+    color: #ffffff;
     margin-bottom: 1em;
 }
 
-.intro p {
-    font-size: 1.2em;
-}
-
-/* Journey Section */
-.journey {
-    background-color: #e3f2fd;
-    padding: 2em;
-    margin-top: 2em;
-}
-
-.journey h2 {
-    text-align: center;
-    font-size: 2.5em;
+/* Highlight Box Styles */
+.highlight {
+    background-color: #333;
+    color: #ffffff;
+    padding: 1em;
+    border-radius: 8px;
     margin-bottom: 1.5em;
-}
-
-.journey p {
-    font-size: 1.2em;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* Goals Section */
-.goals {
-    background-color: #ffffff;
-    padding: 3em;
-    margin-top: 2em;
-    text-align: center;
-}
-
-.goals h2 {
-    font-size: 2.5em;
-    margin-bottom: 1.5em;
-}
-
-.goals p {
-    font-size: 1.2em;
-    max-width: 800px;
-    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
