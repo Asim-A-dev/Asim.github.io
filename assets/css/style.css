@@ -28,3 +28,82 @@ footer {
     color: #888;
     padding: 1em;
 }
+/* General Styles */
+body {
+    background-color: #181a1b; /* Soft dark background */
+    color: #e8e6e3; /* Neutral light text */
+    font-family: Arial, sans-serif; /* Clean, modern font */
+    line-height: 1.6; /* Easier reading */
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "Roboto", Arial, sans-serif; /* Clean font stack */
+font-size: 16px; /* Standard size for readability */
+line-height: 1.6; /* Improve line spacing */
+
+}
+
+/* Links */
+a {
+    color: #1f7aec; /* Calmer blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4a90e2; /* Brighter hover effect */
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #242526; /* Darker header */
+    color: #ffffff; /* White text */
+    padding: 1em 0.5em;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+
+header a {
+    color: #ffffff; /* Links in header stay white */
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 1em;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1.5em;
+}
+
+}
+
+/* Footer */
+footer {
+    background-color: #242526; /* Footer matches header */
+    color: #888888; /* Softer footer text */
+    text-align: center;
+    padding: 1em 0.5em;
+    margin-top: 2em;
+    border-top: 1px solid #333;
+}
+
+footer a {
+    color: #888888;
+}
+
+footer a:hover {
+    color: #cccccc; /* Slightly brighter on hover */
+}
+/* Highlight Boxes */
+.highlight {
+    background-color: #333;
+    color: #ffffff;
+    padding: 1em;
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
