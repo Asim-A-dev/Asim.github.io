@@ -2,5 +2,7 @@
 layout: default
 title: About
 ---
-# About
-This page is all about me and my real-world projects journey.
+
+# About Me
+
+I’m passionate about building and documenting real-world projects, like my automatic night light and Raspberry Pi experiments.
