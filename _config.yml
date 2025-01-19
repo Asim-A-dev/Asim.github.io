@@ -1,16 +1,19 @@
-title: Asim's Real World Projects
-description: A site documenting my real-world projects.
-
-theme: minima
-
-minima:
-  dark_mode: false # Set this to false since we’ll use custom CSS.
-
-plugins:
-  - jekyll-remote-theme # Optional if you're using other themes/plugins
-
-
-header_pages:
-  - index.md
-  - about.md
-  - projects.md
+title: "Asim Ashfaq - TEJ2OR-2"
+description: "Showcasing My Work in TEJ2OR-2"
+theme: jekyll-theme-minimal
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Worksheets"
+    url: "/worksheets/"
+  - title: "Labs"
+    url: "/labs/"
+  - title: "Projects"
+    dropdown:
+      - title: "Night Light"
+        url: "/night-light/"
+      - title: "Current Project"
+        url: "/current-project/"
+  - title: "About"
+    url: "/about/"
+footer: "Asim Ashfaq - All rights reserved"
