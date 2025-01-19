@@ -1,4 +1,4 @@
-theme: jekyll-theme-minima
+theme: minima
 title: My Real-World Projects
 header_pages:
   - index.md
