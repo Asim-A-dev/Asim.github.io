@@ -1,6 +1,7 @@
 title: Asim's Real World Projects
 description: A site documenting my real-world projects.
-theme: minima
+remote_theme: jekyll/minima@latest
+
 
 minima:
   dark_mode: true
