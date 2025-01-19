@@ -19,7 +19,14 @@ html, body {
 a {
     color: #1f7aec; /* Calmer blue for links */
     text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
 }
+
+a:hover {
+    color: #8B0000; /* Blood red color on hover */
+    text-decoration: underline;
+}
+
 
 a:hover {
     color: #4a90e2; /* Brighter hover effect */
