@@ -4,3 +4,5 @@ header_pages:
   - index.md
   - about.md
   - projects.md
+minima:
+  dark_mode: true
