@@ -1,10 +1,14 @@
 title: Asim's Real World Projects
 description: A site documenting my real-world projects.
-remote_theme: jekyll/minima@2.5.1
 
+theme: minima
 
 minima:
-  dark_mode: true
+  dark_mode: false # Set this to false since we’ll use custom CSS.
+
+plugins:
+  - jekyll-remote-theme # Optional if you're using other themes/plugins
+
 
 header_pages:
   - index.md
