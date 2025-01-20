@@ -3,44 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Asim's Tech Journey</title>
     <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Home - TEJ2OR-2</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li>
-                <a href="#">Projects</a>
-                <ul>
-                    <li><a href="/current-project.md">Current Project</a></li>
-                    <li><a href="/REAL%20WORLD%20PROJECT.mp4">Night Light Project</a></li>
-                </ul>
-            </li>
-            <li><a href="/gallery.html">Gallery</a></li>
-        </ul>
-    </nav>
-
     <header>
-        <h1>Welcome to My Journey in TEJ2OR-2</h1>
-        <p>This course helped me learn circuits, coding, and more!</p>
+        <h1>Welcome to Asim's Tech Journey</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Projects</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/projects.html">Overview</a></li>
+                        <li><a href="/REAL%20WORLD%20PROJECT.mp4">Night Light</a></li>
+                        <li><a href="/CULMINATING.jpg">Traffic Light/Copper Wires</a></li>
+                    </ul>
+                </li>
+                <li><a href="/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Featured Project: Night Light</h2>
-            <video src="/REAL WORLD PROJECT.mp4" controls></video>
-        </section>
-
-        <section>
-            <h2>Skills I've Learned</h2>
-            <p>Building circuits, using Linux, creating custom solutions, and more!</p>
-        </section>
+        <p>Explore the projects, skills, and knowledge I've gained throughout this course.</p>
+        <video controls>
+            <source src="/REAL%20WORLD%20PROJECT.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </main>
-
-    <footer>
-        <p>&copy; 2025 Asim Ashfaq - All Rights Reserved</p>
-    </footer>
 </body>
 </html>
