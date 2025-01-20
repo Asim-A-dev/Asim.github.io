@@ -1,149 +1,115 @@
-/* Resetting default margins and padding */
-* {
+/* General Styles */
+html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #181a1b;
+    color: #e8e6e3;
+    line-height: 1.6;
+}
+
+* {
     box-sizing: border-box;
 }
 
-<link rel="stylesheet" href="assets/style.css">
-
-/* Body: Dark background with light text */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #181a1b; /* Dark background color */
-    color: #e8e6e3; /* Light text color */
-    line-height: 1.6;
-    padding: 20px;
-}
-
-/* Header: Dark header with light text */
+/* Header */
 header {
-    background-color: #242526; /* Dark header */
-    color: white;
-    padding: 20px 0;
+    background-color: #242526;
+    color: #ffffff;
     text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 2em 0;
 }
 
-/* Navbar: Style for the navigation bar with dropdowns */
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Navigation Bar */
 nav {
+    background-color: #242526;
     text-align: center;
-    margin-top: 20px;
+    padding: 1em 0;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
 }
 
 nav li {
+    display: inline-block;
     position: relative;
-    margin: 0 20px;
 }
 
 nav a {
-    color: white;
+    color: #e8e6e3;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px;
-    display: inline-block;
-}
-
-nav a:hover {
-    background-color: #8b0000; /* Hover effect with blood-red background */
-    border-radius: 5px;
-}
-
-/* Dropdown Menu */
-nav li:hover ul {
+    padding: 10px 20px;
     display: block;
 }
 
-nav ul ul {
+nav a:hover {
+    background-color: #1f7aec;
+    color: #ffffff;
+}
+
+/* Dropdown Menu */
+nav li ul {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
     background-color: #242526;
     min-width: 200px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
-nav ul ul li {
-    width: 100%;
+nav li:hover > ul {
+    display: block;
 }
 
-/* Main content area with dark background */
+nav li ul li {
+    display: block;
+}
+
+/* Main Content */
 main {
-    max-width: 1200px;
-    margin: 50px auto;
-    padding: 20px;
+    padding: 2em;
     background-color: #242526;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 2em auto;
+    max-width: 1000px;
 }
 
-/* Footer: Simple footer with lighter color text */
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* Footer */
 footer {
     background-color: #242526;
-    color: #888;
-    padding: 20px 0;
+    color: #888888;
     text-align: center;
-    margin-top: 50px;
-    border-top: 1px solid #333;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+footer p {
+    margin: 0;
 }
 
 footer a {
-    color: #888;
-    text-decoration: none;
+    color: #888888;
 }
 
 footer a:hover {
-    color: white;
+    color: #ffffff;
 }
-
-/* Highlight boxes: Used for important sections */
-.highlight {
-    background-color: #333;
-    color: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-}
-
-/* Customizing links globally */
-a {
-    color: #1f7aec; /* Blue links */
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #8b0000; /* Red on hover */
-    text-decoration: underline;
-}
-
-/* Hero Section: A large banner with background */
-.hero {
-    height: 300px;
-    background-image: url('path/to/your/image.jpg'); /* Add your own image */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-}
-
-.hero h1 {
-    font-size: 4em;
-    font-weight: bold;
-}
-
-/* Add any other custom styles below */
