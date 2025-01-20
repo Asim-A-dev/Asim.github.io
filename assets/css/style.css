@@ -1,57 +1,93 @@
-/* General Settings */
-body {
-  font-family: Arial, sans-serif;
+/* Basic reset */
+* {
   margin: 0;
   padding: 0;
-  background-color: #121212; /* Dark theme */
-  color: #f0f0f0;
+  box-sizing: border-box;
 }
 
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #181a1b;
+  color: #e8e6e3;
+  line-height: 1.6;
+}
+
+/* Header and navigation */
 header {
-  background-color: #1c1c1c;
-  padding: 15px;
+  background-color: #242526;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
 }
 
 nav ul {
-  list-style-type: none;
   display: flex;
-  justify-content: space-around;
-  margin: 0;
+  justify-content: center;
+  list-style: none;
   padding: 0;
 }
 
-nav ul li {
-  position: relative;
+nav li {
+  margin: 0 20px;
 }
 
-nav ul li a {
+nav a {
+  color: #1f7aec;
   text-decoration: none;
-  color: #f0f0f0;
-  padding: 10px 15px;
-  display: block;
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
-nav ul li ul {
-  display: none;
-  position: absolute;
-  background-color: #333333;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+nav a:hover {
+  color: #8B0000;
+  text-decoration: underline;
 }
 
-nav ul li:hover ul {
-  display: block;
+/* Main content */
+main {
+  max-width: 1200px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #242526;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-nav ul li ul li a {
-  padding: 10px;
-  white-space: nowrap;
-}
-
+/* Footer */
 footer {
+  background-color: #242526;
+  color: #888888;
   text-align: center;
-  padding: 10px;
-  background-color: #1c1c1c;
-  color: #f0f0f0;
+  padding: 1.5em 0;
+  margin-top: 2em;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+
+/* Gallery section */
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
 }
