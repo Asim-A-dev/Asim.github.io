@@ -1,41 +1,50 @@
+---
+layout: default
+title: About
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Asim</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
-  <header>
+<header>
     <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
+        <ul class="navbar">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/projects.html">Projects</a>
+                <ul>
+                    <li><a href="/projects/night-light">Night Light</a></li>
+                    <li><a href="/projects/current-project">Current Project</a></li>
+                </ul>
+            </li>
+            <li><a href="/gallery.html">Gallery</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
-  <section>
-    <h1>About Me</h1>
-    <p>
-      Over the course of this program, I have learned many valuable skills, including:
-    </p>
-    <ul>
-      <li>Building circuits using TinkerCAD</li>
-      <li>Understanding binary digits and gates</li>
-      <li>Setting up Linux and working with Jupyter Notebook</li>
-      <li>Making real-world projects like a night light and traffic light system</li>
-      <li>Expanding my knowledge of cars and much more!</li>
-    </ul>
+<main>
+    <section class="about-section">
+        <h1>About Me</h1>
+        <p>Welcome to my course project showcase! Over the course, I learned a lot about circuit building, logic gates, binary numbers, and even how to work with tools like TinkerCAD and Linux. My journey started with little knowledge of the topics, but by the end, I had gained some practical experience and expanded my skillset in the field of electronics and technology.</p>
+        
+        <p>I built several projects like the Night Light, a copper wire circuit that turns on a light, a traffic light system, and more. I also dove deep into learning about binary digits and logical operations, which I applied in creating circuits such as the AND and OR gates.</p>
 
-    <footer>
-      <p>&copy; 2025 Asim Ashfaq. All rights reserved.</p>
-    </footer>
-  </section>
+        <h2>Looking Ahead</h2>
+        <p>This course has not only expanded my technical skills but also helped me make connections and gain insights into the tech world. Going forward, I want to continue learning and applying these concepts to even more advanced projects.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; Asim Ashfaq, All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
+
