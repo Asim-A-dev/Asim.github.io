@@ -1,16 +1,9 @@
-title: "Asim's Course Journey"
+title: Asim's Tech Journey
 theme: minima
-navbar:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about"
-  - title: "Projects"
-    url: "/projects"
-    children:
-      - title: "Night Light"
-        url: "/current-project"
-      - title: "Culminating Project"
-        url: "/culminating-project"
-  - title: "Gallery"
-    url: "/gallery"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+
+minima:
+  skin: dark
