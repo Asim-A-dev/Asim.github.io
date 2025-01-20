@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+<link rel="stylesheet" href="assets/style.css">
+
 /* Body: Dark background with light text */
 body {
     font-family: 'Arial', sans-serif;
