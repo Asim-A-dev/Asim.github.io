@@ -10,7 +10,7 @@ This was one of my first hands-on projects where I created an automatic night li
 
 Details of my ongoing project will be added here shortly.
 
-## Real World Video
+## Real World Project Video
 
 Here’s a video related to my current projects:
 
