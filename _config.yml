@@ -1,20 +1,23 @@
-title: "Asim's Course Showcase"
-baseurl: "" # Leave empty if this is deployed on the root of your GitHub Pages repository
-url: "https://asim-a-dev.github.io" # Replace with your GitHub Pages URL
+title: Asim's TEJ2OR Journey
+description: "Showcasing my work and progress in TEJ2OR-2"
+theme: minima
 
-theme: minima # Using the Minima theme
+# Navbar Links
+collections:
+  navbar:
+    - title: Home
+      url: /
+    - title: About
+      url: /about
+    - title: Projects
+      url: /projects
+      sublinks:
+        - title: Night Light Project
+          url: /projects/night-light
+        - title: Current Project
+          url: /projects/current-project
+    - title: Gallery
+      url: /gallery
 
-# Navigation menu configuration
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Projects"
-    children:
-      - title: "Night Light Project"
-        url: "/night-light-project/"
-      - title: "Current Project"
-        url: "/current-project/"
-  - title: "Gallery"
-    url: "/gallery/"
+# Other settings
+paginate: 5
