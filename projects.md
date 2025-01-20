@@ -1,10 +1,12 @@
 ---
 layout: default
-title: "Projects"
+title: Projects
 ---
 
-<h2>Projects</h2>
-<ul>
-  <li><a href="/night-light-project/">Night Light Project</a></li>
-  <li><a href="/current-project/">Current Project</a></li>
-</ul>
+# My Projects
+
+### Night Light
+- A circuit that turns on a light when two copper wires are touched.
+
+### Current Project
+- A traffic light system that mimics real-world functionality.
