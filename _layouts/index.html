@@ -1,38 +1,60 @@
----
-layout: default
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <title>Asim's Projects</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
   <header>
-    <h1>{{ site.title }}</h1>
     <nav>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects/">Projects</a></li>
-        <li><a href="/gallery/">Gallery</a></li>
-        <li><a href="/labs/">Labs</a></li>
-        <li><a href="/about/">About</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="projects.html">Projects</a>
+          <ul class="dropdown">
+            <li><a href="night-light-project.html">Night Light</a></li>
+            <li><a href="traffic-light-project.html">Traffic Light</a></li>
+          </ul>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <h2>Welcome to My TEJ2OR-2 Journey</h2>
-    <p>I started this course with no idea what to expect, but now I’ve gained valuable skills such as circuit design, programming, and a deeper understanding of technology. This website showcases my work and the projects I've completed throughout the course.</p>
-  </main>
+  <section>
+    <h1>Welcome to Asim's Projects!</h1>
 
-  <footer>
-    <p>Asim Ashfaq, all rights reserved</p>
-  </footer>
+    <h2>Real World Project</h2>
+    <video controls>
+      <source src="REAL WORLD PROJECT.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <h2>Gallery of Work</h2>
+    <div class="gallery">
+      <img src="CULMINATING.jpg" alt="Traffic Light and Copper Wire Circuit">
+      <img src="1.0 Part 1.jpg" alt="Binary Worksheet 1">
+      <img src="1.1 Part 1.jpg" alt="Binary Worksheet 2">
+      <!-- Add more images as necessary -->
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Asim Ashfaq. All rights reserved.</p>
+    </footer>
+  </section>
+
+  <script>
+    // Dropdown functionality
+    document.querySelector("li").addEventListener("mouseover", function() {
+      this.querySelector(".dropdown").style.display = "block";
+    });
+    document.querySelector("li").addEventListener("mouseout", function() {
+      this.querySelector(".dropdown").style.display = "none";
+    });
+  </script>
 
 </body>
 </html>
