@@ -1,40 +1,28 @@
-/* Basic Dark Mode Style */
 body {
   background-color: #121212;
   color: white;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 header {
-  background-color: #1a1a1a;
+  background-color: #333;
   padding: 10px;
+  text-align: center;
 }
 
 nav ul {
-  list-style: none;
-  padding: 0;
+  list-style-type: none;
 }
 
 nav li {
-  display: inline-block;
+  display: inline;
   margin: 10px;
 }
 
-nav a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-nav .dropdown {
-  display: none;
-  position: absolute;
-  background-color: #1a1a1a;
-  border: 1px solid #333;
-}
-
-nav li:hover .dropdown {
-  display: block;
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 12px;
 }
 
 .gallery {
@@ -50,8 +38,6 @@ nav li:hover .dropdown {
   border: 2px solid #444;
 }
 
-footer {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 12px;
+video {
+  margin-top: 20px;
 }
