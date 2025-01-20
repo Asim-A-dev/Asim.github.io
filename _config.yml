@@ -1,19 +1,25 @@
-title: "Asim's TEJ2OR-2 Portfolio"
-description: "A showcase of my projects and progress in the course."
+title: "Asim Ashfaq's Course Journey"
+description: "Showcasing my work, progress, and learning in the TEJ2OR-2 course"
+author: "Asim Ashfaq"
 theme: minima
-markdown: kramdown
+highlighter: rouge
 
-# Navigation bar setup
-navbar:
-  - name: Home
-    href: /
-  - name: About
-    href: /about
-  - name: Gallery
-    href: /gallery
-  - name: Projects
-    dropdown:
-      - name: Night Light Project
-        href: /projects#night-light
-      - name: Current Project
-        href: /projects#current-project
+# Navigation menu
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Gallery"
+    url: "/gallery/"
+  - title: "Labs"
+    url: "/labs/"
+  - title: "About"
+    url: "/about/"
+
+# Enable Dropdown for Projects
+projects_dropdown:
+  - title: "Night Light Project"
+    url: "/night-light/"
+  - title: "Current Project"
+    url: "/current-project/"
