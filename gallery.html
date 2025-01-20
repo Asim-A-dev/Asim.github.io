@@ -1,37 +1,64 @@
+---
+layout: default
+title: Gallery
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
-  <header>
+<header>
     <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
+        <ul class="navbar">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/projects.html">Projects</a>
+                <ul>
+                    <li><a href="/projects/night-light">Night Light</a></li>
+                    <li><a href="/projects/current-project">Current Project</a></li>
+                </ul>
+            </li>
+            <li><a href="/gallery.html">Gallery</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
-  <section>
-    <h1>Gallery</h1>
-    <div class="gallery">
-      <img src="CULMINATING.jpg" alt="Traffic Light and Copper Wire Circuit">
-      <img src="1.0 Part 1.jpg" alt="Binary Worksheet 1">
-      <img src="1.1 Part 1.jpg" alt="Binary Worksheet 2">
-      <!-- Add more images as necessary -->
-    </div>
+<main>
+    <section class="gallery-section">
+        <h1>Gallery</h1>
+        
+        <div class="gallery">
+            <!-- Add your images here -->
+            <div class="gallery-item">
+                <img src="/1.0 Part 1.jpg" alt="Binary Worksheet 1">
+                <p>Binary Worksheet 1</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/1.0 Part 2.jpg" alt="Binary Worksheet 2">
+                <p>Binary Worksheet 2</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/CULMINATING.jpg" alt="Traffic Light and Copper Wire Circuit">
+                <p>Traffic Light and Copper Wire Circuit</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/REAL WORLD PROJECT.mp4" alt="Night Light Project Video">
+                <p>Night Light Project</p>
+            </div>
+            <!-- Continue adding more images here -->
+        </div>
+    </section>
+</main>
 
-    <footer>
-      <p>&copy; 2025 Asim Ashfaq. All rights reserved.</p>
-    </footer>
-  </section>
+<footer>
+    <p>&copy; Asim Ashfaq, All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
