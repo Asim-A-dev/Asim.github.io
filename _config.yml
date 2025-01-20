@@ -1,7 +1,8 @@
-title: "Asim Ashfaq's Course Journey"
-description: "Showcasing my work, progress, and learning in the TEJ2OR-2 course"
+title: "My Course Journey"
+description: "Showcasing my work, progress, and learning in the TEJ2OR course"
 author: "Asim Ashfaq"
 theme: minima
+markdown: kramdown
 highlighter: rouge
 
 # Navigation menu
@@ -21,5 +22,5 @@ nav:
 projects_dropdown:
   - title: "Night Light Project"
     url: "/night-light/"
-  - title: "Current Project"
+  - title: "Culminating Project"
     url: "/current-project/"
