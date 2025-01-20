@@ -1,6 +1,6 @@
 title: "Asim Ashfaq - TEJ2OR-2"
 description: "Showcasing My Work in TEJ2OR-2"
-theme: jekyll-theme-minimal
+theme: jekyll-theme-minima
 nav:
   - title: "Home"
     url: "/"
