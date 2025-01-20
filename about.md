@@ -1,12 +1,9 @@
----
-layout: default
-title: "About"
----
+# About
 
-# My First Impressions of the Course
+This course has taught me a lot about how electronics and coding come together to solve real-world problems. My understanding of how devices work has expanded, and I am excited about where this knowledge can take me.
 
-When I first joined the course, I didn’t know what to expect. As time went on, I gained a deeper understanding of the topics and now feel much more confident in my skills.
+I came into this course with limited experience but have already learned so much about circuits, logic gates, and basic coding skills.
 
-## Looking Ahead
+## Improvements
 
-Looking forward, I want to continue improving my skills, especially in electronics and coding. I’m excited to apply what I’ve learned in real-world projects!
+Through hands-on projects and consistent effort, I’ve significantly improved my problem-solving skills and learned how to troubleshoot real-world systems effectively.
