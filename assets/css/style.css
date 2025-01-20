@@ -1,115 +1,68 @@
 /* General Styles */
 html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #181a1b;
-    color: #e8e6e3;
-    line-height: 1.6;
+    background-color: #0c0d0e;
+    color: #e1e1e1;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-/* Header */
 header {
-    background-color: #242526;
-    color: #ffffff;
+    background-color: #1f1f1f;
     text-align: center;
-    padding: 2em 0;
+    padding: 20px;
 }
 
 header h1 {
-    font-size: 3em;
-    margin: 0;
+    color: #ffffff;
+    font-size: 36px;
 }
 
-/* Navigation Bar */
-nav {
-    background-color: #242526;
+header p {
+    color: #7a7a7a;
+}
+
+main {
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 1000px;
     text-align: center;
-    padding: 1em 0;
 }
 
+footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Links */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d32f2f; /* Red hover */
+}
+
+/* Navbar */
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
 }
 
-nav li {
+nav ul li {
     display: inline-block;
-    position: relative;
+    margin-right: 20px;
 }
 
-nav a {
-    color: #e8e6e3;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
+nav ul li a {
+    color: #e1e1e1;
+    font-weight: bold;
 }
 
-nav a:hover {
-    background-color: #1f7aec;
-    color: #ffffff;
-}
-
-/* Dropdown Menu */
-nav li ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #242526;
-    min-width: 200px;
-    z-index: 1;
-}
-
-nav li:hover > ul {
-    display: block;
-}
-
-nav li ul li {
-    display: block;
-}
-
-/* Main Content */
-main {
-    padding: 2em;
-    background-color: #242526;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    margin: 2em auto;
-    max-width: 1000px;
-}
-
-section {
-    margin-bottom: 2em;
-}
-
-h2 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
-}
-
-/* Footer */
-footer {
-    background-color: #242526;
-    color: #888888;
-    text-align: center;
-    padding: 1em;
-    margin-top: 2em;
-}
-
-footer p {
-    margin: 0;
-}
-
-footer a {
-    color: #888888;
-}
-
-footer a:hover {
-    color: #ffffff;
+nav ul li a:hover {
+    color: #d32f2f;
 }
