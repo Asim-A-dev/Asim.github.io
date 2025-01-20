@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Home - TEJ2OR-2</title>
 </head>
 <body>
-  <header>
     <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/projects">Projects</a>
-          <ul>
-            <li><a href="/current-project">Night Light</a></li>
-            <li><a href="/culminating-project">Culminating Project</a></li>
-          </ul>
-        </li>
-        <li><a href="/gallery">Gallery</a></li>
-      </ul>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li>
+                <a href="#">Projects</a>
+                <ul>
+                    <li><a href="/current-project.md">Current Project</a></li>
+                    <li><a href="/REAL%20WORLD%20PROJECT.mp4">Night Light Project</a></li>
+                </ul>
+            </li>
+            <li><a href="/gallery.html">Gallery</a></li>
+        </ul>
     </nav>
-  </header>
-  
-  <main>
-    <h1>{{ site.title }}</h1>
-    <p>Welcome to my course journey. In this website, I'll showcase my learning progress, projects, and achievements throughout this course.</p>
-    <video width="600" controls>
-      <source src="/assets/videos/REAL WORLD PROJECT.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </main>
-  
-  <footer>
-    <p>&copy; 2025 Asim Ashfaq. All rights reserved. The story of my course journey!</p>
-  </footer>
+
+    <header>
+        <h1>Welcome to My Journey in TEJ2OR-2</h1>
+        <p>This course helped me learn circuits, coding, and more!</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Featured Project: Night Light</h2>
+            <video src="/REAL WORLD PROJECT.mp4" controls></video>
+        </section>
+
+        <section>
+            <h2>Skills I've Learned</h2>
+            <p>Building circuits, using Linux, creating custom solutions, and more!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Asim Ashfaq - All Rights Reserved</p>
+    </footer>
 </body>
 </html>
