@@ -12,12 +12,7 @@
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="projects.html">Projects</a>
-          <ul class="dropdown">
-            <li><a href="night-light-project.html">Night Light</a></li>
-            <li><a href="traffic-light-project.html">Traffic Light</a></li>
-          </ul>
-        </li>
+        <li><a href="projects.html">Projects</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
@@ -28,16 +23,15 @@
     <h1>Welcome to Asim's Projects!</h1>
 
     <h2>Real World Project</h2>
-    <video controls>
+    <video controls width="600">
       <source src="REAL WORLD PROJECT.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
 
     <h2>Gallery of Work</h2>
     <div class="gallery">
-      <img src="CULMINATING.jpg" alt="Traffic Light and Copper Wire Circuit">
-      <img src="1.0 Part 1.jpg" alt="Binary Worksheet 1">
-      <img src="1.1 Part 1.jpg" alt="Binary Worksheet 2">
+      <img src="CULMINATING.jpg" alt="Traffic Light and Copper Wire Circuit" width="300">
+      <img src="1.0 Part 1.jpg" alt="Binary Worksheet 1" width="300">
       <!-- Add more images as necessary -->
     </div>
 
@@ -45,16 +39,6 @@
       <p>&copy; 2025 Asim Ashfaq. All rights reserved.</p>
     </footer>
   </section>
-
-  <script>
-    // Dropdown functionality
-    document.querySelector("li").addEventListener("mouseover", function() {
-      this.querySelector(".dropdown").style.display = "block";
-    });
-    document.querySelector("li").addEventListener("mouseout", function() {
-      this.querySelector(".dropdown").style.display = "none";
-    });
-  </script>
 
 </body>
 </html>
