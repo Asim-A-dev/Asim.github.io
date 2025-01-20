@@ -1,23 +1,19 @@
-title: Asim's TEJ2OR Journey
-description: "Showcasing my work and progress in TEJ2OR-2"
+title: "Asim's TEJ2OR-2 Portfolio"
+description: "A showcase of my projects and progress in the course."
 theme: minima
+markdown: kramdown
 
-# Navbar Links
-collections:
-  navbar:
-    - title: Home
-      url: /
-    - title: About
-      url: /about
-    - title: Projects
-      url: /projects
-      sublinks:
-        - title: Night Light Project
-          url: /projects/night-light
-        - title: Current Project
-          url: /projects/current-project
-    - title: Gallery
-      url: /gallery
-
-# Other settings
-paginate: 5
+# Navigation bar setup
+navbar:
+  - name: Home
+    href: /
+  - name: About
+    href: /about
+  - name: Gallery
+    href: /gallery
+  - name: Projects
+    dropdown:
+      - name: Night Light Project
+        href: /projects#night-light
+      - name: Current Project
+        href: /projects#current-project
