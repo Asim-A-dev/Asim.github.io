@@ -1,11 +1,10 @@
 title: "Asim's Course Showcase"
-baseurl: ""
-url: "https://asim-a-dev.github.io"   # Replace with your GitHub Pages URL
-permalink: /:basename/
+baseurl: "" # Leave empty if this is deployed on the root of your GitHub Pages repository
+url: "https://asim-a-dev.github.io" # Replace with your GitHub Pages URL
 
-theme: minima  # Ensure you are using the Minima theme
+theme: minima # Using the Minima theme
 
-# Define your navigation menu
+# Navigation menu configuration
 navigation:
   - title: "Home"
     url: "/"
@@ -17,13 +16,5 @@ navigation:
         url: "/night-light-project/"
       - title: "Current Project"
         url: "/current-project/"
-  - title: "Worksheets & Labs"
-    children:
-      - title: "Binary Worksheet"
-        url: "/binary-worksheet/"
-      - title: "Logic Gates Worksheet"
-        url: "/logic-gates-worksheet/"
-      - title: "Labs"
-        url: "/labs/"
   - title: "Gallery"
     url: "/gallery/"
