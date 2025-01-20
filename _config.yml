@@ -1,18 +1,16 @@
 title: "Asim's Course Journey"
-description: "Showcasing my work throughout the course"
-baseurl: ""
-url: "https://asim-a-dev.github.io/Asim.github.io"
-
 theme: minima
-
-collections:
-  projects:
-    output: true
-  gallery:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+navbar:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Projects"
+    url: "/projects"
+    children:
+      - title: "Night Light"
+        url: "/current-project"
+      - title: "Culminating Project"
+        url: "/culminating-project"
+  - title: "Gallery"
+    url: "/gallery"
