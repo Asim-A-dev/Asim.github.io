@@ -3,40 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-
-<header>
-  <h1>{{ site.title }}</h1>
-  <nav>
-    <ul>
-      {% for item in site.navigation %}
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
         <li>
-          {% if item.children %}
-            <a href="#">{{ item.title }}</a>
-            <ul class="dropdown-content">
-              {% for child in item.children %}
-                <li><a href="{{ child.url }}">{{ child.title }}</a></li>
-              {% endfor %}
-            </ul>
-          {% else %}
-            <a href="{{ item.url }}">{{ item.title }}</a>
-          {% endif %}
+          <a href="/projects">Projects</a>
+          <ul>
+            <li><a href="/projects/night-light">Night Light</a></li>
+            <li><a href="/projects/current-project">Current Project</a></li>
+          </ul>
         </li>
-      {% endfor %}
-    </ul>
-  </nav>
-</header>
-
-<main>
-  {{ content }}
-</main>
-
-<footer>
-  <p>Asim Ashfaq, all rights reserved. &copy; 2025</p>
-</footer>
-
+        <li><a href="/gallery">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>&copy; 2025 Asim Ashfaq, all rights reserved. (Disclaimer: Humor intended!)</p>
+  </footer>
 </body>
 </html>
