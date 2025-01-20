@@ -1,26 +1,14 @@
-title: "My Course Journey"
-description: "Showcasing my work, progress, and learning in the TEJ2OR course"
-author: "Asim Ashfaq"
 theme: minima
-markdown: kramdown
-highlighter: rouge
+title: "Asim's Course Journey"
+description: "Showcasing my work throughout the course"
 
-# Navigation menu
+# Enable navigation
 nav:
   - title: "Home"
     url: "/"
+  - title: "About"
+    url: "/about/"
   - title: "Projects"
     url: "/projects/"
   - title: "Gallery"
     url: "/gallery/"
-  - title: "Labs"
-    url: "/labs/"
-  - title: "About"
-    url: "/about/"
-
-# Enable Dropdown for Projects
-projects_dropdown:
-  - title: "Night Light Project"
-    url: "/night-light/"
-  - title: "Culminating Project"
-    url: "/current-project/"
