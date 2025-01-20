@@ -1,9 +1,6 @@
-title: Asim's Tech Journey
+title: Asim's Project Showcase
 theme: minima
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-
-minima:
-  skin: dark
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+dark mode: true
