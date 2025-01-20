@@ -1,21 +1,17 @@
 ---
-layout: default
-title: Projects
+layout: page
+title: "Projects"
+permalink: /projects/
 ---
 
-# My Projects
+# Projects
 
-## Night Light Project
-This project demonstrates a working circuit where a light turns on when two copper wires are touched. Check out the video of the project in action below:
+This section showcases the key projects I've worked on throughout this course.
 
-<video controls width="720" style="display: block; margin: 20px auto;">
-  <source src="/REAL%20WORLD%20PROJECT.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+### **Night Light Project**
+Watch the video showing the night light working!
+[Watch Video](assets/videos/REAL_WORLD_PROJECT.mp4)
 
----
-
-## Current Project
-A **traffic light system** that replicates real-world functionality! Here's a picture of the project in action:
-
-![Traffic Light System](path/to/traffic-light.jpg)
+### **Copper Wire & Traffic Light System**
+Here's the picture of my traffic light and copper wire system:
+![Traffic Light Circuit](assets/images/culminating.jpg)
