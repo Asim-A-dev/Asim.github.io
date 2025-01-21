@@ -1,10 +1,19 @@
-title: Asim's Project Showcase
-theme: minima
+title: "Asim's Project Portfolio"
+description: "A showcase of my work and projects from the course"
+baseurl: ""
+url: "https://asim-a-dev.github.io/Asim.github.io"
 
-minima:
-  skin: dark
+theme: jekyll-theme-slate
 
-header_pages:
-  - index.html
-  - about.html
-  - gallery.html
+# Navigation links
+nav_links:
+  - title: "Home"
+    url: "/index.html"
+  - title: "Gallery"
+    url: "/gallery.html"
+  - title: "Coursework"
+    url: "/coursework.html"
+  - title: "Culminating Assignment"
+    url: "/culminating.html"
+  - title: "Real World Project"
+    url: "/real-world-project.html"
