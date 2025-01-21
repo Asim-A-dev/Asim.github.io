@@ -1,6 +1,10 @@
 title: Asim's Project Showcase
 theme: minima
-permalink: pretty
-markdown: kramdown
-highlighter: rouge
-dark mode: true
+
+minima:
+  skin: dark
+
+header_pages:
+  - index.html
+  - about.html
+  - gallery.html
