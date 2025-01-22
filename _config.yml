@@ -1,9 +1,8 @@
-title: My Project Site
-description: A simple site showcasing my projects
-theme: minima
+title: Asim's TEJ20R Course Overview
+description: This site showcases what I've achieved in this class and how I've improved and grown as a student
+theme: minima 
+dark mode: true
 navigation:
-  - title: Home
-    url: /
   - title: About
     url: /about
   - title: Gallery
