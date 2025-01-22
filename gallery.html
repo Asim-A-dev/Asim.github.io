@@ -1,35 +1,53 @@
 ---
-layout: default
-title: Gallery
+layout: null
 ---
 
-<h1>Gallery</h1>
-<p>Below are some of the pictures, videos, and documents I’ve worked on:</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/about.html' | relative_url }}">About</a></li>
+          <li><a href="{{ '/gallery.html' | relative_url }}">Gallery</a></li>
+          <li><a href="{{ '/culminating.html' | relative_url }}">Culminating Assignment</a></li>
+          <li><a href="{{ '/real-world-project.html' | relative_url }}">Real World Project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<h3>Images</h3>
-<div>
-    <img src="1.0 Part 1.jpg" alt="1.0 Part 1" width="300">
-    <img src="1.0 Part 2.jpg" alt="1.0 Part 2" width="300">
-    <img src="1.1 Part 1.jpg" alt="1.1 Part 1" width="300">
-    <img src="1.1 Part 2.jpg" alt="1.1 Part 2" width="300">
-    <img src="1.10.jpg" alt="1.10" width="300">
-    <img src="1.3 Part 1.jpg" alt="1.3 Part 1" width="300">
-    <img src="1.3 Part 2.jpg" alt="1.3 Part 2" width="300">
-    <img src="1.3 part 3.jpg" alt="1.3 Part 3" width="300">
-    <img src="1.6.jpg" alt="1.6" width="300">
-    <img src="1.7.jpg" alt="1.7" width="300">
-    <img src="1.8.jpg" alt="1.8" width="300">
-    <img src="1.9.jpg" alt="1.9" width="300">
-</div>
+  <main>
+    <div class="container">
+      <h2>Gallery</h2>
+      <div>
+        <img src="{{ '/assets/images/1.0 Part 1.jpg' | relative_url }}" alt="1.0 Part 1">
+        <img src="{{ '/assets/images/1.0 Part 2.jpg' | relative_url }}" alt="1.0 Part 2">
+        <img src="{{ '/assets/images/1.1 Part 1.jpg' | relative_url }}" alt="1.1 Part 1">
+        <img src="{{ '/assets/images/1.1 Part 2.jpg' | relative_url }}" alt="1.1 Part 2">
+        <img src="{{ '/assets/images/1.10.jpg' | relative_url }}" alt="1.10">
+        <img src="{{ '/assets/images/1.3 Part 1.jpg' | relative_url }}" alt="1.3 Part 1">
+        <img src="{{ '/assets/images/1.3 Part 2.jpg' | relative_url }}" alt="1.3 Part 2">
+        <img src="{{ '/assets/images/1.3 part 3.jpg' | relative_url }}" alt="1.3 Part 3">
+        <img src="{{ '/assets/images/1.6.jpg' | relative_url }}" alt="1.6">
+        <img src="{{ '/assets/images/1.7.jpg' | relative_url }}" alt="1.7">
+        <img src="{{ '/assets/images/1.8.jpg' | relative_url }}" alt="1.8">
+        <img src="{{ '/assets/images/1.9.jpg' | relative_url }}" alt="1.9">
+      </div>
+    </div>
+  </main>
 
-<h3>Lab Documents and Videos</h3>
-<ul>
-    <li><a href="Digital NOR and NAND Gates_.pdf">Digital NOR and NAND Gates</a></li>
-    <li><a href="Half Adder Circuit.webm">Half Adder Circuit</a></li>
-    <li><a href="NAND and NOR Gate Lab Video.webm">NAND and NOR Gate Lab Video</a></li>
-    <li><a href="NOR and NAND Gate Lab.pdf">NOR and NAND Gate Lab</a></li>
-</ul>
-
-<footer>
-    <p>&copy; 2025 Asim Ashfaq</p>
-</footer>
+  <footer>
+    <p>&copy; 2025 Asim Ashfaq, All rights reserved.</p>
+  </footer>
+</body>
+</html>
