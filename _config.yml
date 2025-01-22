@@ -1,5 +1,5 @@
 # The theme for your website (Tactile is chosen for this project)
-theme: jekyll-theme-tactile
+theme: "tactile"
 
 # Website settings
 title: "My Course Journey"
@@ -13,15 +13,25 @@ baseurl: ""  # Leave it empty since everything is in the "main" folder
 # Permalink structure for your pages
 permalink: /:year/:month/:day/:title/
 
-# GitHub Link (Change this to your actual GitHub profile URL if needed)
+# Social Links
 social_links:
   github: "https://github.com/yourgithubprofile"  # Replace with your actual GitHub profile link
 
-# Enabling markdown settings (important for .md files like your project description)
+# Enable plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown settings (important for .md files like current-project.md, gallery.md, etc.)
 markdown: kramdown
 kramdown:
   input: GFM
-  toc_levels: 1..3  # Control how many levels of headings to include in the table of contents
+  toc_levels: 1..3
+
+# Footer settings
+footer:
+  text: "Asim Ashfaq - All Rights Reserved"
+  contact_email: "your_email@example.com"  # Add your contact email if needed
 
 # Navigation settings (for the default layout)
 navigation:
@@ -37,16 +47,3 @@ navigation:
     url: "/real-world-project.html"
   - title: "Culminating Project"
     url: "/culminating.html"
-
-# Enabling the use of plugins (useful if you need to add functionality later)
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Disabling Markdown rendering in certain files (optional, if you prefer pure HTML)
-markdown_ext: ".md"  # Allows .md files to be rendered properly, such as current-project.md, gallery.md, etc.
-
-# Footer information (optional)
-footer:
-  text: "Asim Ashfaq - All Rights Reserved"
-  contact_email: "your_email@example.com"  # Add your contact email if needed
