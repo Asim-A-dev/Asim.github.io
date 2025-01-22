@@ -1,5 +1,5 @@
-# The theme for your website (Tactile is chosen for this project)
-theme: "tactile"
+# The theme for your website (minima is the default theme provided by GitHub Pages)
+theme: "minima"
 
 # Website settings
 title: "My Course Journey"
