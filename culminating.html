@@ -3,10 +3,29 @@ layout: default
 title: Culminating Project
 ---
 
-<h2>Culminating Project</h2>
-<p>This project involved creating a system where touching two copper wires would turn on a light. We explored fingerprint sensors and body conductivity in the process.</p>
-<img src="/CULMINATING.jpg" alt="Culminating Project">
-<video controls>
-    <source src="/Culminating Video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Culminating Project</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>Culminating Project</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Touch Sensor Circuit</h2>
+      <p>This project uses a touch sensor and two transistors to turn on a light when you touch two wires. It was designed to explore the functionality of fingerprint sensors.</p>
+      <img src="{{ '/images/CULMINATING.jpg' | relative_url }}" alt="Culminating Project Image">
+    </section>
+  </main>
+
+  <footer>
+    <p>Footer content goes here.</p>
+  </footer>
+
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+</body>
+</html>
