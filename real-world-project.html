@@ -1,34 +1,41 @@
 ---
-layout: null
+layout: default
+title: Real World Project
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Real World Project</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>{{ site.title }}</h1>
-      <nav>
+    <header>
+        <h1>Real World Project</h1>
+    </header>
+    <nav>
         <ul>
-          <li><a href="{{ '/' | relative_url }}">Home</a></li>
-          <li><a href="{{ '/about.html' | relative_url }}">About</a></li>
-          <li><a href="{{ '/gallery.html' | relative_url }}">Gallery</a></li>
-          <li><a href="{{ '/culminating.html' | relative_url }}">Culminating Assignment</a></li>
-          <li><a href="{{ '/real-world-project.html' | relative_url }}">Real World Project</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/coursework.html">Coursework</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+            <li><a href="/culminating.html">Culminating Assignment</a></li>
+            <li><a href="/real-world-project.html">Real World Project</a></li>
         </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <div class="container">
-      <h2>Real World Project: Night Light</h2>
-      <p>This project involved building a fully functioning night light with a motion sensor, a photoresistor, and a kill switch. When motion is detected, the light flashes, indicating success.</p>
-      <h3>Tinkercad Circuit</h3>
-      <img src
+    </nav>
+    <section>
+        <h2>Night Light Project</h2>
+        <p>This project involves a fully functioning night light with a motion sensor, photoresistor, and kill switch. The light flashes when motion is detected as an indication of success.</p>
+        <h3>Real Life Circuit Video</h3>
+        <video controls>
+            <source src="REAL WORLD PROJECT.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h3>Images</h3>
+        <div>
+            <img src="Real World Project Circuit Picture.jpg" alt="Real World Project" width="600">
+            <img src="Screenshot 2025-01-21 180308.png" alt="TinkerCAD Version" width="600">
+        </div>
+    </section>
+</body>
+</html>
