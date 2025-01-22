@@ -1,18 +1,40 @@
 ---
-layout: home
-title: Home
+layout: null
 ---
 
-<h1>Welcome to My TEJ2OR Journey</h1>
-<p>This website showcases my projects, assignments, and learning experience in the TEJ2OR course. Below are the various sections where you can explore my work:</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/about.html' | relative_url }}">About</a></li>
+          <li><a href="{{ '/gallery.html' | relative_url }}">Gallery</a></li>
+          <li><a href="{{ '/culminating.html' | relative_url }}">Culminating Assignment</a></li>
+          <li><a href="{{ '/real-world-project.html' | relative_url }}">Real World Project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<ul>
-    <li><a href="about.html">About Me</a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="culminating.html">Culminating Assignment</a></li>
-</ul>
+  <main>
+    <div class="container">
+      <h2>Welcome to My TEJ2OR Project Website</h2>
+      <p>This site showcases all my work and experiments in this course.</p>
+    </div>
+  </main>
 
-<footer>
-    <p>&copy; 2025 Asim Ashfaq</p>
-</footer>
+  <footer>
+    <p>&copy; 2025 Asim Ashfaq, All rights reserved.</p>
+  </footer>
+</body>
+</html>
