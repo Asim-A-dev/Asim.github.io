@@ -1,19 +1,34 @@
 ---
-layout: default
-title: Projects
+layout: null
 ---
 
-# Projects
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real World Project</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/about.html' | relative_url }}">About</a></li>
+          <li><a href="{{ '/gallery.html' | relative_url }}">Gallery</a></li>
+          <li><a href="{{ '/culminating.html' | relative_url }}">Culminating Assignment</a></li>
+          <li><a href="{{ '/real-world-project.html' | relative_url }}">Real World Project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-## Real World Project: Motion Sensing Night Light
-
-This project involved creating a fully functioning night light with a motion sensor, photoresistor, and a kill switch. The light flashes when motion is detected, indicating success.
-
-- [Project Video](assets/videos/REAL WORLD PROJECT.mp4)
-- [Tinkercad Design](assets/images/Screenshot 2025-01-21 180308.png)
-
-## Culminating Assignment: Conductivity-Based Light Switch
-
-This project used two transistors and your body’s conductivity to turn on a light by touching two wires. It was a way of exploring fingerprint sensors and their potential uses.
-
-- ![Culminating Image](assets/images/CULMINATING.jpg)
+  <main>
+    <div class="container">
+      <h2>Real World Project: Night Light</h2>
+      <p>This project involved building a fully functioning night light with a motion sensor, a photoresistor, and a kill switch. When motion is detected, the light flashes, indicating success.</p>
+      <h3>Tinkercad Circuit</h3>
+      <img src
