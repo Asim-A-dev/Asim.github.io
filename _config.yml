@@ -1,2 +1,16 @@
-title: Asim's TEJ2OR Website
-theme: jekyll-theme-tactile
+title: My Project Site
+description: A simple site showcasing my projects
+theme: minima
+header_pages:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Gallery
+    url: /gallery
+  - title: Projects
+    url: /projects
+  - title: Culminating
+    url: /culminating
+  - title: Real World Project
+    url: /real-world-project
