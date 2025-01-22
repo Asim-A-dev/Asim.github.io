@@ -1,13 +1,12 @@
-title: Your Project Name
-description: A website showcasing my engineering and circuit projects.
+title: My TEJ2OR Showcase
+description: A showcase of my circuit designs and experiments.
 theme: jekyll-theme-tactile
 
-# For adding pages, like about, projects, etc.
 url: "https://asim-a-dev.github.io/Asim.github.io"
 baseurl: ""
 exclude:
   - Gemfile
   - Gemfile.lock
 
-# Optional: Include plugins or other settings you want.
+# Optional configurations
 markdown: kramdown
