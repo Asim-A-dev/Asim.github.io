@@ -3,5 +3,38 @@ layout: default
 title: About Me
 ---
 
-<h2>About Me</h2>
-<p>Here you can add your biography or details about your studies, interests, and what you've been working on in the course.</p>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Who Am I?</h2>
+      <p>I'm a student working on projects related to science and engineering. I have a passion for learning new technologies and applying them in creative ways.</p>
+    </section>
+
+    <section>
+      <h2>My Journey</h2>
+      <p>Here's a brief overview of my work in the course:</p>
+      <ul>
+        <li>Understanding circuits and electronics</li>
+        <li>Exploring real-world projects such as night lights</li>
+        <li>Learning about sensors, switches, and more</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Footer content goes here.</p>
+  </footer>
+
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+</body>
+</html>
