@@ -1,19 +1,13 @@
-title: "Asim's Project Portfolio"
-description: "A showcase of my work and projects from the course"
-baseurl: ""
+title: Your Project Name
+description: A website showcasing my engineering and circuit projects.
+theme: jekyll-theme-tactile
+
+# For adding pages, like about, projects, etc.
 url: "https://asim-a-dev.github.io/Asim.github.io"
+baseurl: ""
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
-theme: jekyll-theme-slate
-
-# Navigation links
-nav_links:
-  - title: "Home"
-    url: "/index.html"
-  - title: "Gallery"
-    url: "/gallery.html"
-  - title: "Coursework"
-    url: "/coursework.html"
-  - title: "Culminating Assignment"
-    url: "/culminating.html"
-  - title: "Real World Project"
-    url: "/real-world-project.html"
+# Optional: Include plugins or other settings you want.
+markdown: kramdown
