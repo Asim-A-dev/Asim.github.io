@@ -49,3 +49,11 @@ section {
 h1, h2, h3 {
     color: #ff4d4d;
 }
+
+/* Footer styling */
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
