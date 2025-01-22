@@ -3,11 +3,36 @@ layout: default
 title: Real World Project
 ---
 
-<h2>Real World Project</h2>
-<p>This was a fully functioning night light with a motion sensor, photoresistor, and kill switch. The project detects motion and lights up the room when needed.</p>
-<video controls>
-    <source src="/REAL WORLD PROJECT.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-<img src="/Real World Project Circuit Picture.jpg" alt="Real World Project Circuit">
-<img src="/Screenshot 2025-01-21 180308.png" alt="TinkerCAD Circuit">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Real World Project</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>Real World Project: Motion-Activated Night Light</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Project Overview</h2>
+      <p>This project involves creating a motion-activated night light using a photoresistor and a motion sensor. Below is a video of the working prototype.</p>
+      <video controls>
+        <source src="{{ '/images/REAL WORLD PROJECT.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>Tinkercad Simulation:</h3>
+      <img src="{{ '/images/Screenshot 2025-01-21 180308.png' | relative_url }}" alt="Tinkercad Simulation">
+      <h3>Real Life Circuit:</h3>
+      <img src="{{ '/images/Real World Project Circuit Picture.jpg' | relative_url }}" alt="Real Life Circuit">
+    </section>
+  </main>
+
+  <footer>
+    <p>Footer content goes here.</p>
+  </footer>
+
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+</body>
+</html>
