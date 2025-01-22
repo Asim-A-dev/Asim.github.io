@@ -1,34 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: "Real World Project"
+---
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real World Project | Asim's TEJ2OR Course Portfolio</title>
-    <link rel="stylesheet" href="/assets/css/custom.css"> <!-- Custom CSS link -->
+  <style>
+    /* Dark mode using system preference */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #ffffff;
+      }
+
+      header, footer {
+        background-color: #333;
+      }
+
+      nav a {
+        color: #ff4b5c;
+      }
+
+      nav a:hover {
+        color: #ff0000;
+      }
+    }
+  </style>
 </head>
-<body>
-    <header>
-        <h1>Real World Project</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="coursework.html">Coursework</a></li>
-                <li><a href="culminating.html">Culminating Project</a></li>
-                <li><a href="real-world-project.html">Real World Project</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section>
-        <h2>Automated Night Light Project</h2>
-        <p>This project involves an automatic night light that turns on when it gets dark. The system uses a light sensor to detect the surrounding brightness and turns the light on if it's too dark.</p>
-        <img src="/images/night-light.jpg" alt="Night Light Project">
-    </section>
+<h1>Real World Project</h1>
+<p>I built a smart night light that turns on automatically when it's dark and detects movement. Here's how it works:
 
-    <footer>
-        <p>&copy; 2025 Asim Ashfaq, All Rights Reserved</p>
-    </footer>
-</body>
-</html>
+The night light has three main parts:
+1. A motion sensor that spots when someone is moving nearby
+2. A photoresistor that can tell if it's dark or light in the room
+3. A switch that lets you turn the whole system on or off
+
+When the switch is on, the night light checks two things:
+- Is it dark enough? (using the photoresistor)
+- Is there movement? (using the motion sensor)
+
+If both conditions are met - it's dark and there's movement - the light turns on. This means it only lights up when someone needs it, saving energy.
+
+I used an LED for the light because it's bright but doesn't use much power. The whole system is connected to a small circuit board that controls when the light should turn on or off.
+
+This project taught me how to combine different sensors and switches to create a useful, automated device. It's cool to see how these simple parts can work together to make something that's actually helpful in everyday life..</p>
+<video src="REAL WORLD PROJECT.mp4" controls></video>
+<img src="Screenshot 2025-01-21 180308.png" alt="Tinkercad Circuit">
+<img src="Real World Project Circuit Picture.jpg" alt="Real Life Circuit">
