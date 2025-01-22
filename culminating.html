@@ -1,22 +1,41 @@
 ---
-layout: default
-title: Culminating Assignment
+layout: null
 ---
 
-<h1>Culminating Assignment: Fingerprint Sensor Exploration</h1>
-<p>In this project, we used two copper wires and explored how our body’s conductivity can complete a circuit, turning on a light. This project serves as a stepping stone to understanding fingerprint sensors.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Culminating Assignment</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/about.html' | relative_url }}">About</a></li>
+          <li><a href="{{ '/gallery.html' | relative_url }}">Gallery</a></li>
+          <li><a href="{{ '/culminating.html' | relative_url }}">Culminating Assignment</a></li>
+          <li><a href="{{ '/real-world-project.html' | relative_url }}">Real World Project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<h3>Project Images and Videos</h3>
-<div>
-    <img src="CULMINATING.jpg" alt="Culminating Project" width="300">
-</div>
+  <main>
+    <div class="container">
+      <h2>Culminating Assignment</h2>
+      <p>This project involved touching two copper wires to make a light turn on, using your body's conductivity. The goal was to explore fingerprint sensors.</p>
+      <img src="{{ '/assets/images/culminating.jpg' | relative_url }}" alt="Culminating Assignment Image">
+    </div>
+  </main>
 
-<h3>Video: Project Working</h3>
-<video width="320" height="240" controls>
-  <source src="REAL WORLD PROJECT.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-<footer>
-    <p>&copy; 2025 Asim Ashfaq</p>
-</footer>
+  <footer>
+    <p>&copy; 2025 Asim Ashfaq, All rights reserved.</p>
+  </footer>
+</body>
+</html>
