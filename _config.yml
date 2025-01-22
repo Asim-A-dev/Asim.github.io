@@ -1,5 +1,2 @@
 title: Asim's TEJ2OR Website
-description: Documentation of my TEJ2OR course projects and assignments
-baseurl: ""
-url: "https://asim-a-dev.github.io"
-theme: minima
+theme: jekyll-theme-tactile
