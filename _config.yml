@@ -1,15 +1,18 @@
-title: Asim's TEJ20R Course Overview
-description: This site showcases what I've achieved in this class and how I've improved and grown as a student
-theme: minima 
-dark mode: true
-navigation:
+title: Asim's TEJ2OR Course Project
+theme: minima
+markdown: kramdown
+
+# Navigation links
+nav:
+  - title: Home
+    url: /
+  - title: Coursework
+    url: /coursework/
   - title: About
-    url: /about
-  - title: Gallery
-    url: /gallery
-  - title: Projects
-    url: /projects
+    url: /about/
   - title: Culminating
-    url: /culminating
+    url: /culminating/
+  - title: Gallery
+    url: /gallery/
   - title: Real World Project
-    url: /real-world-project
+    url: /real-world-project/
