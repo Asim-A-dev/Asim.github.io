@@ -1,15 +1,13 @@
-title: Asim's TEJ2OR Course Project
+title: Asim's TEJ2OR Course Showcase
 theme: minima
 markdown: kramdown
 
 # Navigation links
 nav:
-  - title: Home
-    url: /
+   - title: About
+    url: /about/
   - title: Coursework
     url: /coursework/
-  - title: About
-    url: /about/
   - title: Culminating
     url: /culminating/
   - title: Gallery
